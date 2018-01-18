@@ -106,3 +106,9 @@ img
 	outline: #000000 auto;
 }
 
+div.center
+{
+	height: 150px;
+	margin-left: 38%;
+}
+
