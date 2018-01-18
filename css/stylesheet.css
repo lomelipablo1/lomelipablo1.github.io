@@ -1,0 +1,108 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+	color: #FFFFFF;
+	height: 100%;
+}
+
+nav div.nav-item
+{
+	margin-left: 10px;
+}
+
+nav a {
+	color: #000000;
+	text-decoration-line: none;
+	outline: #000000 auto;
+	
+	
+}
+/* rescales image inside image tag. */
+.scaleimage
+{
+	max-width: 100%;
+}
+
+nav a:hover{
+	
+	color: #000000;
+	background-color: #C7C7C7;
+	outline: #000000 auto;
+
+}
+
+/* indents any paragraph with this iclass. */
+.beginp
+{
+	text-indent: 30px;
+}
+
+/* adds a big line underneath text */
+.underlinetitle {
+  font-size: 26px;
+  margin: 15px 0px 5px 0px;
+  border-bottom: 5px solid black;
+  width:200px; /*Change this to whatever value that you want*/
+}
+
+/* makes links into a box to look like nav boxes */
+.linkbox
+{	
+	padding: .2em;
+	color: #000000;
+	text-decoration-line: none;
+	outline: #000000 auto;
+}
+
+.linkbox:hover{
+	
+	color: #000000;
+	background-color: #C7C7C7;
+	outline: #000000 auto;
+	text-decoration-line: none;
+
+}
+
+.linkbox:visited{
+	
+	color: #000000;
+	outline: #000000 auto;
+	text-decoration-line: none;
+
+}
+
+/* rounds the buttons. */
+.roundbutton
+{
+	border-radius: 5px;
+	background-color: #FFFFFF;
+	color:#000000;
+	font-size: 2em;
+	
+	
+}
+
+.roundbutton:focus
+{
+	outline:0;
+}
+
+.roundbutton:hover
+{
+	background-color: #C7C7C7;
+}
+
+.maxheight {
+	height: 500px;
+	outline: #000000 auto;
+}
+
+img
+{
+	border: solid medium;
+	border-radius: 5px;
+	outline: #000000 auto;
+}
+
